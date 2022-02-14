@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Library to control 8-bit color APA102 and 16-bit color HD108 LED strips.",
   "main": "spi_smart_leds.js",
+  "dependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +14,6 @@
     "led",
     "spi"
   ],
-  "author": "k. Eric Mittler",
+  "author": "K. Eric Mittler",
   "license": "MIT"
 }
