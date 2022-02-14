@@ -34,9 +34,9 @@ const SPI = require('pi-spi')
 spi = SPI.initialize('/dev/spidev0.0')
 const ledStripLength = 144;
 
-const ledStrip = new SmartLEDs.Dotstar(spi, {
+const ledStrip = new SmartLEDs.SPISmartLEDs(spi, {
   length: ledStripLength, isHD108: true
-});
+})
 ```
 
 > When an instace of Dotstar class is created it will automatically set all LEDs to off/black.
